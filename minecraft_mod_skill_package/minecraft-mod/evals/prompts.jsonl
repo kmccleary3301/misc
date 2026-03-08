@@ -1,0 +1,9 @@
+{"id":"fabric_greenfield_block","prompt":"Create a new Fabric mod for Minecraft 1.21.x that adds one item, one block, a recipe, and datagen. Keep it single-loader unless there is a real reason not to. Validate with the cheapest sufficient artifact ladder."}
+{"id":"neoforge_greenfield_machine","prompt":"Create a new NeoForge mod for Minecraft 1.21.x with one simple machine-like block behavior, data generation, and at least one useful validation artifact."}
+{"id":"unknown_repo_triage","prompt":"You were dropped into an unknown Minecraft mod repository. Determine loader, version, mappings, Java/toolchain, available tasks, likely risk surfaces, and the narrowest validation path before broad edits."}
+{"id":"version_port","prompt":"Port this Minecraft mod to a newer Minecraft version. Upgrade build/toolchain/mappings first, then repair breakage, and do not call the port complete without runtime-oriented evidence."}
+{"id":"loader_port","prompt":"Port this Fabric mod to NeoForge. Decide whether to direct-port, branch, or introduce shared-core structure, and justify the choice. Gather artifacts before claiming success."}
+{"id":"mixin_startup_crash","prompt":"The mod crashes during startup after a Mixin change. Diagnose the failure from logs, fix the narrowest likely cause, and gather the artifacts that prove what changed."}
+{"id":"add_gametest","prompt":"This repo lacks GameTests. Add the minimum viable GameTest or equivalent in-game validation for a custom block interaction, and wire it into the validation loop."}
+{"id":"compat_path","prompt":"Add optional compatibility with another mod. Keep the compat boundary narrow and validate with the compat path actually enabled."}
+{"id":"release_prep","prompt":"Prepare this mod for release. Validate the highest relevant artifact ladder for the changed surfaces and produce a precise release-readiness summary."}

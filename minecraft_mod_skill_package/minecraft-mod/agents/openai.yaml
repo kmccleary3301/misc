@@ -1,0 +1,4 @@
+interface:
+  display_name: "Minecraft Mod"
+  short_description: "Artifact-backed Fabric and NeoForge mod development for Codex."
+  default_prompt: "Work like a senior Minecraft modding engineer: detect the repo shape, choose the simplest viable lane, bootstrap missing helpers, make small validated changes, and collect artifacts before making claims."
